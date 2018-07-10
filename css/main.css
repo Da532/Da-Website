@@ -16,23 +16,30 @@ body {
 	text-align: center;
 }
 
+@font-face {
+    font-family: "PepsiLight";
+    src: url("http://da532.com/webfonts/PepsiLight.eot"); /* IE9 Compat Modes */
+    src: url("http://da532.com/webfonts/PepsiLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("http://da532.com/webfonts/PepsiLight.woff2") format("woff2"), /* Super Modern Browsers */
+         url("http://da532.com/webfonts/PepsiLight.woff") format("woff"), /* Pretty Modern Browsers */
+         url("http://da532.com/webfonts/PepsiLight.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("http://da532.com/webfonts/PepsiLight.svg#svgPepsiLight") format("svg"); /* Legacy iOS */
+  }
+  
 h1 {
     font-family: PepsiLight;
-    src: url(webfonts/PepsiLight.woff);
     font-size: 2em;
     cursor: default;
 }
 
 h2 {
     font-family: PepsiLight;
-    src: url(webfonts/PepsiLight.woff);
     font-weight: thin;
     font-size: 1.5em;
 }
 
 h3 {
     font-family: PepsiLight;
-    src: url(webfonts/PepsiLight.woff);
     font-size: 4em;
     color: white;
     cursor: default;
