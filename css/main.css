@@ -1,0 +1,156 @@
+html {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+div#container {
+    max-width: 60em;
+    margin: auto;
+    color: #000;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    color: #000;
+	text-align: center;
+}
+
+h1 {
+    font-family: PepsiLight;
+    src: url(webfonts/PepsiLight.woff);
+    font-size: 2em;
+    cursor: default;
+}
+
+h2 {
+    font-family: PepsiLight;
+    src: url(webfonts/PepsiLight.woff);
+    font-weight: thin;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: PepsiLight;
+    src: url(webfonts/PepsiLight.woff);
+    font-size: 4em;
+    color: white;
+    cursor: default;
+}
+
+.spacer {
+    margin-top: 50px;
+}
+
+i {
+    color: white;
+    font-size: 2.4em;
+    transition: all 0.25s;
+}
+
+i:hover {
+    color: #0055ff
+}
+
+.image {
+	width: 200px;
+    margin: auto;
+    border-radius: 100%
+}
+
+.project {
+    width: 100px;
+    border-radius: 1000%;
+    transition: all 0.20s;
+}
+
+.project:hover {
+    width: 100px;
+    border-radius: 30%;
+}
+
+.animated {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+
+.line {
+    margin: auto;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    margin-top: 2px;
+}
+
+.left {
+    text-align: left;
+}
+
+.fade {
+    background: linear-gradient(321deg, #1034cc, #3b0285);
+    background-size: 400% 400%;
+    
+    -webkit-animation: fade 14s ease infinite;
+    -moz-animation: fade 14s ease infinite;
+    -o-animation: fade 14s ease infinite;
+    animation: fade 14s ease infinite;}
+    
+    @-webkit-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-o-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @keyframes fade { 
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+footer {
+    background-color:#1034cc;
+    color:white;
+    padding: 3em;
+}
