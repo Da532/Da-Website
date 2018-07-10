@@ -18,12 +18,12 @@ body {
 
 @font-face {
     font-family: "PepsiLight";
-    src: url("http://da532.com/webfonts/PepsiLight.eot"); /* IE9 Compat Modes */
-    src: url("http://da532.com/webfonts/PepsiLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-         url("http://da532.com/webfonts/PepsiLight.woff2") format("woff2"), /* Super Modern Browsers */
-         url("http://da532.com/webfonts/PepsiLight.woff") format("woff"), /* Pretty Modern Browsers */
-         url("http://da532.com/webfonts/PepsiLight.ttf")  format("truetype"), /* Safari, Android, iOS */
-         url("http://da532.com/webfonts/PepsiLight.svg#svgPepsiLight") format("svg"); /* Legacy iOS */
+    src: url("https://da532.com/webfonts/PepsiLight.eot"); /* IE9 Compat Modes */
+    src: url("https://da532.com/webfonts/PepsiLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("https://da532.com/webfonts/PepsiLight.woff2") format("woff2"), /* Super Modern Browsers */
+         url("https://da532.com/webfonts/PepsiLight.woff") format("woff"), /* Pretty Modern Browsers */
+         url("https://da532.com/webfonts/PepsiLight.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("https://da532.com/webfonts/PepsiLight.svg#svgPepsiLight") format("svg"); /* Legacy iOS */
   }
   
 h1 {
